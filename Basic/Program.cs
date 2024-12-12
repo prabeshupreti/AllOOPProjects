@@ -1,10 +1,9 @@
 ﻿
 using Basic;
 
-Car car = new Car();
+Car LR = new Car();
 
-car.Type = "SUV";
-car.Name = "Land Rover";
+Console.Write("Enter the car type: ");
+LR.Type = Console.ReadLine();
 
-Console.WriteLine(car.Type);
-Console.WriteLine(car.Name);
+Console.WriteLine(LR.Type);
