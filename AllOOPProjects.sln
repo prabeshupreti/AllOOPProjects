@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorHandling", "ErrorHandling\ErrorHandling.csproj", "{77B6AE55-B3EA-49D7-BE0D-F85A31EDBFA5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Documentation", "Documentation\Documentation.csproj", "{4485F60A-E597-481A-9AA5-99676F917336}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{77B6AE55-B3EA-49D7-BE0D-F85A31EDBFA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77B6AE55-B3EA-49D7-BE0D-F85A31EDBFA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77B6AE55-B3EA-49D7-BE0D-F85A31EDBFA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4485F60A-E597-481A-9AA5-99676F917336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4485F60A-E597-481A-9AA5-99676F917336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4485F60A-E597-481A-9AA5-99676F917336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4485F60A-E597-481A-9AA5-99676F917336}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
