@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Calculator
 {
     public class Calc
@@ -14,6 +9,26 @@ namespace Calculator
         public int Add() 
         {
             return Number1 + Number2;
+        }
+
+        public int Add(int A, int B)
+        {
+            return A + B;
+        }
+
+        public int Add(int A, int B, int C)
+        {
+            return A + B + C;
+        }
+
+        public float Add(float A, float B)
+        {
+            return A + B;
+        }
+
+        public long Add(long A, long B)
+        {
+            return A + B;
         }
 
         public int Difference()

@@ -12,6 +12,6 @@ int Sum = calc.Add();
 
 Console.WriteLine($"The sum is {Sum}.");
 
-int Diff = calc.Difference();
+int Sum2 = calc.Add(calc.Number1, calc.Number2);
 
-Console.WriteLine($"The difference is {Diff}.");
+Console.WriteLine($"The sum is {Sum2}.");
