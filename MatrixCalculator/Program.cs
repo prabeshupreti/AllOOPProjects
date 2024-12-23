@@ -4,13 +4,33 @@ using MatrixCalculator;
 Matrix matrixA = new Matrix(2, 2);
 
 Matrix matrixB = new Matrix(2, 2);
-Matrix Sum = matrixA + matrixB;
 
-for (int i = 0; i < Sum.M.GetLength(0); i++)
+Console.WriteLine("Enter the matrix A numbers");
+foreach (int i in Enumerable.Range(0, matrixA.M.GetLength(0)))
 {
-    for (int j = 0; j < Sum.M.GetLength(1); j++)
+    foreach (int j in Enumerable.Range(0, matrixA.M.GetLength(1)))
     {
-        Console.Write($"   {Sum.M[i, j]}");
+        matrixA.M[i, j] = int.Parse(Console.ReadLine());
     }
-    Console.WriteLine();
+}
+
+Console.WriteLine();
+Console.WriteLine("Enter the matrix B numbers");
+foreach (int i in Enumerable.Range(0, matrixB.M.GetLength(0)))
+{
+    foreach (int j in Enumerable.Range(0, matrixA.M.GetLength(1)))
+    {
+        matrixB.M[i, j] = int.Parse(Console.ReadLine());
+    }
+}
+
+Matrix MatrixSum = matrixA + matrixB;
+
+Console.WriteLine();
+foreach (int i in Enumerable.Range(0, MatrixSum.M.GetLength(0)))
+{
+    foreach (int j in Enumerable.Range(0, MatrixSum.M.GetLength(1)))
+    {
+        Console.WriteLine(MatrixSum.M[i, j]);
+    }
 }
