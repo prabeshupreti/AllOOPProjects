@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThrowAndCatch", "ThrowAndCa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixCalculator", "MatrixCalculator\MatrixCalculator.csproj", "{79313410-D662-4013-8585-C04E1358030C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixCalculatorImproved", "MatrixCalculatorImproved\MatrixCalculatorImproved.csproj", "{A039BBCB-6FE9-4673-A1D0-06521F66FDBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{79313410-D662-4013-8585-C04E1358030C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79313410-D662-4013-8585-C04E1358030C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79313410-D662-4013-8585-C04E1358030C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A039BBCB-6FE9-4673-A1D0-06521F66FDBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A039BBCB-6FE9-4673-A1D0-06521F66FDBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A039BBCB-6FE9-4673-A1D0-06521F66FDBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A039BBCB-6FE9-4673-A1D0-06521F66FDBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
