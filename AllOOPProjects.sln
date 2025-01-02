@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixCalculator", "MatrixC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixCalculatorImproved", "MatrixCalculatorImproved\MatrixCalculatorImproved.csproj", "{A039BBCB-6FE9-4673-A1D0-06521F66FDBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseOperations", "DatabaseOperations\DatabaseOperations.csproj", "{B6D94221-CA4A-4132-9EE9-7027181D20EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{A039BBCB-6FE9-4673-A1D0-06521F66FDBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A039BBCB-6FE9-4673-A1D0-06521F66FDBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A039BBCB-6FE9-4673-A1D0-06521F66FDBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6D94221-CA4A-4132-9EE9-7027181D20EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D94221-CA4A-4132-9EE9-7027181D20EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D94221-CA4A-4132-9EE9-7027181D20EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D94221-CA4A-4132-9EE9-7027181D20EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
