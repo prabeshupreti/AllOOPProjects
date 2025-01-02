@@ -13,7 +13,7 @@ namespace DatabaseOperations
         {
             string ConnectionString = "server=localhost;uid=root;database=OfficeDemoApp";
             optionsBuilder.UseMySql(ConnectionString, ServerVersion.AutoDetect(ConnectionString));
-            base.OnConfiguring(optionsBuilder);
+            base.OnConfiguring(optionsBuilder); 
         }
     }
 }
