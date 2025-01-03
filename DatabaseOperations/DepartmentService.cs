@@ -1,7 +1,7 @@
 ﻿
 using DatabaseOperations;
 
-namespace DatabaseDemo
+namespace DatabaseOperations
 {
     public class DepartmentService
     {
