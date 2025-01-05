@@ -31,9 +31,10 @@ namespace DatabaseOperations
             appDbContext.SaveChanges();
         }
 
-        public void Remove(Department department)
+        public void DeleteDepartment(int Id)
         {
             AppDbContext appDbContext = new AppDbContext();
+            Department department = GetDepartmentById(Id);
             var departments = appDbContext.Departments.Remove(department);
             appDbContext.SaveChanges();
         }
