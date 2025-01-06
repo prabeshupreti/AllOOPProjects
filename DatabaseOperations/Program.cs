@@ -14,7 +14,7 @@ Console.WriteLine("4: Delete a department");
 Console.Write("\n What is your choice ?: ");
 Choice = int.Parse(Console.ReadLine());
 
-if (!(Choice == 1 || Choice == 2 || Choice == 3 || Choice == 4))
+if (!(Choice >= 1 || Choice <= 4))
 {
     Console.Clear();
     Console.WriteLine("Wrong choice selected.\n");
