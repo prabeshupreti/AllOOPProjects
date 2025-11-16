@@ -39,8 +39,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitwiseOperatorOverloadExam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceExample", "InterfaceExample\InterfaceExample.csproj", "{14A142E0-35F0-4106-889A-0F710D1E8A72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicDatabase", "BasicDatabase\BasicDatabase.csproj", "{84D15A3B-C910-4B5B-AD26-7835C59397B5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintingObjectConfiguration", "PrintingObjectConfiguration\PrintingObjectConfiguration.csproj", "{EA9EEEA2-A444-4293-8D2B-3FA065DD178A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyConfiguration", "PropertyConfiguration\PropertyConfiguration.csproj", "{AE0843E8-69AB-4B1D-9287-372E273F9FBC}"
@@ -125,10 +123,6 @@ Global
 		{14A142E0-35F0-4106-889A-0F710D1E8A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14A142E0-35F0-4106-889A-0F710D1E8A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14A142E0-35F0-4106-889A-0F710D1E8A72}.Release|Any CPU.Build.0 = Release|Any CPU
-		{84D15A3B-C910-4B5B-AD26-7835C59397B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{84D15A3B-C910-4B5B-AD26-7835C59397B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{84D15A3B-C910-4B5B-AD26-7835C59397B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{84D15A3B-C910-4B5B-AD26-7835C59397B5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EA9EEEA2-A444-4293-8D2B-3FA065DD178A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EA9EEEA2-A444-4293-8D2B-3FA065DD178A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA9EEEA2-A444-4293-8D2B-3FA065DD178A}.Release|Any CPU.ActiveCfg = Release|Any CPU
