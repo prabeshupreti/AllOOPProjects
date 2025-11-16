@@ -19,6 +19,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixCalculatorImproved", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseOperations", "DatabaseOperations\DatabaseOperations.csproj", "{B6D94221-CA4A-4132-9EE9-7027181D20EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandlingImproved", "ExceptionHandlingImproved\ExceptionHandlingImproved.csproj", "{EC146D57-6F96-4067-8488-2C857AAC9F08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedOrCustomClass", "NestedOrCustomClass\NestedOrCustomClass.csproj", "{70F36E66-E8F4-4BFD-BC4D-EEE6BD522A3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverloading", "MethodOverloading\MethodOverloading.csproj", "{7CA43EDF-4238-463D-90F5-D1857BF218E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverriding", "MethodOverriding\MethodOverriding.csproj", "{4E74C472-A3F9-4E03-A944-F7503A70A707}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverrideByConfiguration", "OverrideByConfiguration\OverrideByConfiguration.csproj", "{A6CE82DD-03C8-4CD8-A42F-261A56A8F351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{CFB976D9-5AF5-434E-AB04-C5CDB00EDD98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,8 +69,35 @@ Global
 		{B6D94221-CA4A-4132-9EE9-7027181D20EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6D94221-CA4A-4132-9EE9-7027181D20EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6D94221-CA4A-4132-9EE9-7027181D20EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC146D57-6F96-4067-8488-2C857AAC9F08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC146D57-6F96-4067-8488-2C857AAC9F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC146D57-6F96-4067-8488-2C857AAC9F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC146D57-6F96-4067-8488-2C857AAC9F08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70F36E66-E8F4-4BFD-BC4D-EEE6BD522A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70F36E66-E8F4-4BFD-BC4D-EEE6BD522A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70F36E66-E8F4-4BFD-BC4D-EEE6BD522A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70F36E66-E8F4-4BFD-BC4D-EEE6BD522A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CA43EDF-4238-463D-90F5-D1857BF218E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CA43EDF-4238-463D-90F5-D1857BF218E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CA43EDF-4238-463D-90F5-D1857BF218E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CA43EDF-4238-463D-90F5-D1857BF218E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E74C472-A3F9-4E03-A944-F7503A70A707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E74C472-A3F9-4E03-A944-F7503A70A707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E74C472-A3F9-4E03-A944-F7503A70A707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E74C472-A3F9-4E03-A944-F7503A70A707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6CE82DD-03C8-4CD8-A42F-261A56A8F351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6CE82DD-03C8-4CD8-A42F-261A56A8F351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6CE82DD-03C8-4CD8-A42F-261A56A8F351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6CE82DD-03C8-4CD8-A42F-261A56A8F351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB976D9-5AF5-434E-AB04-C5CDB00EDD98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB976D9-5AF5-434E-AB04-C5CDB00EDD98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB976D9-5AF5-434E-AB04-C5CDB00EDD98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB976D9-5AF5-434E-AB04-C5CDB00EDD98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A84396B-8223-4C09-9877-D4C45D4EE84A}
 	EndGlobalSection
 EndGlobal
