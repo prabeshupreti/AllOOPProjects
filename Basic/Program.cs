@@ -1,9 +1,9 @@
 ﻿
 using Basic;
 
-Car LR = new Car();
+Car Prado = new Car();
 
 Console.Write("Enter the car type: ");
-LR.Type = Console.ReadLine();
+Prado.Type = Console.ReadLine();
 
-Console.WriteLine(LR.Type);
+Console.WriteLine(Prado.Type);
